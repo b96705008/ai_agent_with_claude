@@ -6,17 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is an AI agent project demonstrating OpenAI API usage and RAG (Retrieval-Augmented Generation) implementation. The project consists of:
 
-- `example.py`: A basic script that uses the OpenAI client to generate text responses using GPT-4.1
 - `rag_agent.py`: A LangGraph-based RAG agent that combines document retrieval with text generation
 
 ## Architecture
 
 The project contains two main components:
-
-### example.py
-- OpenAI client initialization
-- API call to generate text using the `responses.create` method
-- Output printing
 
 ### rag_agent.py (LangGraph RAG Pipeline)
 - **SimpleRAGAgent**: Main agent class implementing RAG workflow
@@ -26,11 +20,6 @@ The project contains two main components:
 - **TruLens Integration**: Optional observability with TruGraph for tracing and evaluation
 
 ## Development Commands
-
-To run the basic OpenAI example:
-```bash
-python example.py
-```
 
 To run the RAG agent demo:
 ```bash
